@@ -1,0 +1,2 @@
+[console_scripts]
+EmojiEncoding = EmojiEncoding:main
