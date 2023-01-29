@@ -1,0 +1,10 @@
+EmojiEncode.py
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+EmojiEncode.egg-info/PKG-INFO
+EmojiEncode.egg-info/SOURCES.txt
+EmojiEncode.egg-info/dependency_links.txt
+EmojiEncode.egg-info/entry_points.txt
+EmojiEncode.egg-info/top_level.txt

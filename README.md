@@ -1,6 +1,6 @@
-![EmojiEncoding logo](https://mauricelambert.github.io/info/python/security/EmojiEncoding_small.png "EmojiEncoding logo")
+![EmojiEncode logo](https://mauricelambert.github.io/info/python/security/EmojiEncode_small.png "EmojiEncode logo")
 
-# EmojiEncoding
+# EmojiEncode
 
 ## Description
 
@@ -15,7 +15,7 @@ This package require:
 ## Installation
 
 ```bash
-pip install EmojiEncoding
+pip install EmojiEncode
 ```
 
 ## Usages
@@ -23,16 +23,16 @@ pip install EmojiEncoding
 ### Command line
 
 ```bash
-python3 -m EmojiEncoding 'my data'
-python3 EmojiEncoding.pyz --html 'first data' 'second data'
-EmojiEncoding --decode '<unicode emoji charaters>'
-EmojiEncoding --html --decode '&#x0001f674&#x0001f365&#x0001f373&#x0001f674'
+python3 -m EmojiEncode 'my data'
+python3 EmojiEncode.pyz --html 'first data' 'second data'
+EmojiEncode --decode '<unicode emoji charaters>'
+EmojiEncode --html --decode '&#x0001f674&#x0001f365&#x0001f373&#x0001f674'
 ```
 
 ### Python script
 
 ```python
-from EmojiEncoding import encode, decode, html_decode, html_encode
+from EmojiEncode import encode, decode, html_decode, html_encode
 
 emojis: str = encode(b'my data')
 data: bytes = decode(emojis)
@@ -43,10 +43,10 @@ data: bytes = decode(html_emojis)
 
 ## Links
 
- - [Github Page](https://github.com/mauricelambert/EmojiEncoding/)
- - [Documentation](https://mauricelambert.github.io/info/python/security/EmojiEncoding.html)
- - [Pypi package](https://pypi.org/project/EmojiEncoding/)
- - [Executable](https://mauricelambert.github.io/info/python/security/EmojiEncoding.pyz)
+ - [Github Page](https://github.com/mauricelambert/EmojiEncode/)
+ - [Documentation](https://mauricelambert.github.io/info/python/security/EmojiEncode.html)
+ - [Pypi package](https://pypi.org/project/EmojiEncode/)
+ - [Executable](https://mauricelambert.github.io/info/python/security/EmojiEncode.pyz)
 
 ## Licence
 

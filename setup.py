@@ -1,4 +1,4 @@
-import EmojiEncoding as package
+import EmojiEncode as package
 from setuptools import setup
 
 setup(
@@ -15,8 +15,8 @@ setup(
     long_description_content_type="text/markdown",
     url=package.__url__,
     project_urls={
-        "Documentation": "https://mauricelambert.github.io/info/python/security/EmojiEncoding.html",
-        "Executable": "https://mauricelambert.github.io/info/python/security/EmojiEncoding.pyz",
+        "Documentation": "https://mauricelambert.github.io/info/python/security/EmojiEncode.html",
+        "Executable": "https://mauricelambert.github.io/info/python/security/EmojiEncode.pyz",
     },
     classifiers=[
         "Topic :: Security",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "EmojiEncoding = EmojiEncoding:main",
+            "EmojiEncode = EmojiEncode:main",
         ],
     },
     python_requires=">=3.8",

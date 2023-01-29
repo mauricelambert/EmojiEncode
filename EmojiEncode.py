@@ -23,14 +23,14 @@
 This module encodes and decodes data into partially random Unicode Emoji,
 it's like a steganography in message or social network.
 
-~# python3 EmojiEncoding.py mytest
+~# python3 EmojiEncode.py mytest
 <unicode emoji charaters>
-~# python3 EmojiEncoding.py --html my test
+~# python3 EmojiEncode.py --html my test
 &#x0001f66d&#x0001f379
 &#x0001f674&#x0001f365&#x0001f373&#x0001f674
-~# python3 EmojiEncoding.py --html --decode '&#x0001f674&#x0001f365&#x0001f373&#x0001f674'
+~# python3 EmojiEncode.py --html --decode '&#x0001f674&#x0001f365&#x0001f373&#x0001f674'
 test
-~# python3 EmojiEncoding.py --decode '<unicode emoji charaters>'
+~# python3 EmojiEncode.py --decode '<unicode emoji charaters>'
 <data encoded>
 ~#
 
@@ -50,7 +50,7 @@ test
 >>> assert data == html_decode(emojis1)
 >>> assert data == html_decode(emojis2)
 
-~# python3 -m doctest -v EmojiEncoding.py
+~# python3 -m doctest -v EmojiEncode.py
 15 tests in 5 items.
 15 passed and 0 failed.
 Test passed.
@@ -67,10 +67,10 @@ __description__ = (
     " it's like a steganography in message or social network."
 )
 license = "GPL-3.0 License"
-__url__ = "https://github.com/mauricelambert/EmojiEncoding"
+__url__ = "https://github.com/mauricelambert/EmojiEncode"
 
 copyright = """
-EmojiEncoding  Copyright (C) 2023  Maurice Lambert
+EmojiEncode  Copyright (C) 2023  Maurice Lambert
 This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it
 under certain conditions.
