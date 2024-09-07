@@ -37,8 +37,8 @@ from EmojiEncode import encode, decode, html_decode, html_encode
 emojis: str = encode(b'my data')
 data: bytes = decode(emojis)
 
-html_emojis: str = encode(b'my data')
-data: bytes = decode(html_emojis)
+html_emojis: str = html_encode('html_string')
+data: bytes = html_decode(html_emojis)
 ```
 
 ## Links
